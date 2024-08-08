@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+/* HEADER */
+
+header {
+    background-color: darkolivegreen;
+    height: 10%;
+    font-size: 0;
+}
+
+#logo {
+    display: inline-block;
+    width: 5%;
+    height: 100%;
+}
+
+#logo img {
+    height: 100%;
+}
+
+#titulo {
+    display: inline-block;
+    width: 45%;
+    height: 100%;
+    vertical-align: top;
+}
+
+#titulo h1 {
+    width: 100%;
+    height: 100%;
+    font-size: 4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 5%;
+}
+
+header nav {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    text-align: right;
+    vertical-align: top;
+}
+
+header nav a {
+    display: inline-block;
+    font-size: 2rem;
+    vertical-align: top;
+    padding: 25px 10px 10px 10px;
+    vertical-align: bottom;
+}
+
+/* MAIN */
+
+main {
+    height: 80vh;
+}
+
+#section1 {
+    height: 40%;
+}
+
+#section1 img {
+    width: 100%;
+    height: 100%;
+}
+
+#section2 {
+    height: 60%;
+}
+
+#section2 h2 {
+    height: 10%;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#section2 div {
+    height: 90%;
+    font-size: 0;
+}
+
+#section2 div article {
+    display: inline-block;
+    width: 32%;
+    height: 100%;
+    padding: 0 0.5% 0 0.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+#section2 div article img {
+    height: 20%;
+}
+
+#section2 div article h3 {
+    font-weight: bold;
+    height: 10%;
+}
+
+#section2 div article p {
+    overflow: hidden;
+    height: 58%;
+}
+
+#section2 div article a {
+    display: block;
+    text-align: right;
+    height: 10%;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: darkolivegreen;
+    height: 10vh;
+    font-size: 0;
+}
+
+footer div {
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    vertical-align: top;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer div h4 {
+    padding: 2% 2% 0% 2%;
+}
+
+footer div p {
+    padding: 2% 2% 0% 2%;
+}
+
+#social {
+    width: 40%;
+    text-align: right;
+    font-size: 0;
+}
+
+#social a {
+    vertical-align: top;
+}
+
+#social a img {
+    width: 40px;
+    height: 40px;
+    padding: 2% 10px 0% 10px;
+}
