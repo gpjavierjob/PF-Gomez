@@ -9,7 +9,22 @@ body {
 
 /* HEADER */
 
-header {
+header div div img {
+    height: 60px;
+}
+
+li {
+    list-style-type: none;
+}
+
+@media screen and (min-width: 992px) {
+    header {
+        height: 10vh;
+    }
+
+}
+
+/* header {
     background-color: darkolivegreen;
     height: 10%;
     font-size: 0;
@@ -58,7 +73,7 @@ header nav ul li {
     vertical-align: top;
     padding: 25px 10px 10px 10px;
     vertical-align: bottom;
-}
+} */
 
 /* MAIN */
 
