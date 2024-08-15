@@ -3,18 +3,22 @@
     padding: 0;
 }
 
-body {
-    height: 100vh;
-}
-
 /* HEADER */
 
 header div div img {
+    width: 60px;
     height: 60px;
 }
 
 li {
     list-style-type: none;
+}
+
+/* MAIN */
+
+main section article img {
+    width: 200px;
+    height: 200px;
 }
 
 /* FOOTER */
@@ -25,6 +29,14 @@ footer div div a img {
 }
 
 @media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        height: 100vh;
+    }
+    
     header {
         height: 10vh;
     }
@@ -37,7 +49,7 @@ footer div div a img {
 
 /* MAIN */
 
-main {
+/* main {
     height: 80vh;
 }
 
@@ -67,4 +79,4 @@ main article p {
 
 #main-img2 {
     float: right;
-}
+} */
