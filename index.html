@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,7 @@
     <title>Clínica Veterinaria</title>
 </head>
 <body>
-    <header class="container-fluid bg-light">
+    <header class="container-fluid bg-danger-subtle">
         <div class="row row-cols-1 row-cols-lg-3 h-100">
             <div class="col col-lg-2 d-flex justify-content-center align-items-center">
                 <img src="./assets/images/logo2.webp" alt="Logo">
@@ -27,35 +27,49 @@
             </nav>
         </div>
     </header>
-    <main>
-        <section id="section1">
-            <img src="./assets/images/principal.webp" alt="Imagen Principal">
-        </section>
-        <section id="section2">
-            <h2>Principales Servicios</h2>
-            <div>
-                <article>
-                    <img src="./assets/images/servicio.jpg" alt="Servicio 1">
-                    <h3>Título</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt tempora laborum qui molestiae fugit officia id, repudiandae ut facere itaque nesciunt! Laboriosam consequatur exercitationem inventore, natus consequuntur nesciunt tenetur tempore qui tempora reprehenderit ea similique modi itaque eaque iusto labore odit! Provident vitae atque temporibus ex non optio adipisci odit ipsam sequi sed enim repellendus rerum neque, unde, eveniet officia, deleniti delectus facere dignissimos cumque. Blanditiis ipsum, dolor nihil minima ullam ea quam eos expedita in architecto saepe non quas esse, maxime totam deleniti rerum porro quos aut error neque sequi facilis eveniet consequatur? Vitae optio cupiditate fugiat totam impedit molestiae modi, corporis soluta eligendi cumque quia. Reprehenderit dolorem, asperiores cum sequi veniam repellendus, pariatur qui exercitationem laborum iste in!</p>
-                    <a href="">Saber más</a>
-                </article>
-                <article>
-                    <img src="./assets/images/servicio.jpg" alt="Servicio 2">
-                    <h3>Título</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt tempora laborum qui molestiae fugit officia id, repudiandae ut facere itaque nesciunt! Laboriosam consequatur exercitationem inventore, natus consequuntur nesciunt tenetur tempore qui tempora reprehenderit ea similique modi itaque eaque iusto labore odit! Provident vitae atque temporibus ex non optio adipisci odit ipsam sequi sed enim repellendus rerum neque, unde, eveniet officia, deleniti delectus facere dignissimos cumque. Blanditiis ipsum, dolor nihil minima ullam ea quam eos expedita in architecto saepe non quas esse, maxime totam deleniti rerum porro quos aut error neque sequi facilis eveniet consequatur? Vitae optio cupiditate fugiat totam impedit molestiae modi, corporis soluta eligendi cumque quia. Reprehenderit dolorem, asperiores cum sequi veniam repellendus, pariatur qui exercitationem laborum iste in!</p>
-                    <a href="">Saber más</a>
-                </article>
-                <article>
-                    <img src="./assets/images/servicio.jpg" alt="Servicio 3">
-                    <h3>Título</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt tempora laborum qui molestiae fugit officia id, repudiandae ut facere itaque nesciunt! Laboriosam consequatur exercitationem inventore, natus consequuntur nesciunt tenetur tempore qui tempora reprehenderit ea similique modi itaque eaque iusto labore odit! Provident vitae atque temporibus ex non optio adipisci odit ipsam sequi sed enim repellendus rerum neque, unde, eveniet officia, deleniti delectus facere dignissimos cumque. Blanditiis ipsum, dolor nihil minima ullam ea quam eos expedita in architecto saepe non quas esse, maxime totam deleniti rerum porro quos aut error neque sequi facilis eveniet consequatur? Vitae optio cupiditate fugiat totam impedit molestiae modi, corporis soluta eligendi cumque quia. Reprehenderit dolorem, asperiores cum sequi veniam repellendus, pariatur qui exercitationem laborum iste in!</p>
-                    <a href="">Saber más</a>
-                </article>
-            </div>
-        </section>
+    <main class="container-fluid">
+        <div class="row row-cols-1 h-100">
+            <section id="section1" class="col d-flex flex-column p-0">
+                <img class="w-100" src="./assets/images/principal.webp" alt="Imagen Principal">
+                <h2 class="text-center">Principales Servicios</h2>
+            </section>
+            <section id="section2" class="col container-fluid">
+                <div class="row row-cols-1 row-cols-lg-3 h-100">
+                    <article class="col d-flex flex-column">
+                        <div class="d-flex align-items-center">
+                            <div class="flex-shrink-0">
+                                <img src="./assets/images/servicio.jpg" width="100" height="100" alt="Servicio 1">
+                            </div>
+                            <h3 class="flex-grow-1 ms-3">Título</h3>
+                        </div>
+                        <p class="p-2 overflow-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt tempora laborum qui molestiae fugit officia id, repudiandae ut facere itaque nesciunt! Laboriosam consequatur exercitationem inventore, natus consequuntur nesciunt tenetur tempore qui tempora reprehenderit ea similique modi itaque eaque iusto labore odit! Provident vitae atque temporibus ex non optio adipisci odit ipsam sequi sed enim repellendus rerum neque, unde, eveniet officia, deleniti delectus facere dignissimos cumque. Blanditiis ipsum, dolor nihil minima ullam ea quam eos expedita in architecto saepe non quas esse, maxime totam deleniti rerum porro quos aut error neque sequi facilis eveniet consequatur? Vitae optio cupiditate fugiat totam impedit molestiae modi, corporis soluta eligendi cumque quia. Reprehenderit dolorem, asperiores cum sequi veniam repellendus, pariatur qui exercitationem laborum iste in!</p>
+                        <a class="p-2 text-end" href="">Saber más</a>
+                    </article>
+                    <article class="col d-flex flex-column">
+                        <div class="d-flex align-items-center">
+                            <div class="flex-shrink-0">
+                                <img src="./assets/images/servicio.jpg" width="100" height="100" alt="Servicio 2">
+                            </div>
+                            <h3 class="flex-grow-1 ms-3">Título</h3>
+                        </div>
+                        <p class="p-2 overflow-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt tempora laborum qui molestiae fugit officia id, repudiandae ut facere itaque nesciunt! Laboriosam consequatur exercitationem inventore, natus consequuntur nesciunt tenetur tempore qui tempora reprehenderit ea similique modi itaque eaque iusto labore odit! Provident vitae atque temporibus ex non optio adipisci odit ipsam sequi sed enim repellendus rerum neque, unde, eveniet officia, deleniti delectus facere dignissimos cumque. Blanditiis ipsum, dolor nihil minima ullam ea quam eos expedita in architecto saepe non quas esse, maxime totam deleniti rerum porro quos aut error neque sequi facilis eveniet consequatur? Vitae optio cupiditate fugiat totam impedit molestiae modi, corporis soluta eligendi cumque quia. Reprehenderit dolorem, asperiores cum sequi veniam repellendus, pariatur qui exercitationem laborum iste in!</p>
+                        <a class="p-2 text-end" href="">Saber más</a>
+                    </article>
+                    <article class="col d-flex flex-column">
+                        <div class="d-flex align-items-center">
+                            <div class="flex-shrink-0">
+                                <img src="./assets/images/servicio.jpg" width="100" height="100" alt="Servicio 3">
+                            </div>
+                            <h3 class="flex-grow-1 ms-3">Título</h3>
+                        </div>
+                        <p class="p-2 overflow-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt tempora laborum qui molestiae fugit officia id, repudiandae ut facere itaque nesciunt! Laboriosam consequatur exercitationem inventore, natus consequuntur nesciunt tenetur tempore qui tempora reprehenderit ea similique modi itaque eaque iusto labore odit! Provident vitae atque temporibus ex non optio adipisci odit ipsam sequi sed enim repellendus rerum neque, unde, eveniet officia, deleniti delectus facere dignissimos cumque. Blanditiis ipsum, dolor nihil minima ullam ea quam eos expedita in architecto saepe non quas esse, maxime totam deleniti rerum porro quos aut error neque sequi facilis eveniet consequatur? Vitae optio cupiditate fugiat totam impedit molestiae modi, corporis soluta eligendi cumque quia. Reprehenderit dolorem, asperiores cum sequi veniam repellendus, pariatur qui exercitationem laborum iste in!</p>
+                        <a class="p-2 text-end" href="">Saber más</a>
+                    </article>
+                </div>
+            </section>
+        </div>
     </main>
-    <footer class="container-fluid bg-light">
+    <footer class="container-fluid bg-danger-subtle">
         <div class="row row-cols-1 row-cols-lg-4 h-100">
             <div class="col d-flex flex-column justify-content-start align-items-center align-items-lg-start">
                 <h4 class="ps-1 pt-2">Dirección:</h4>
