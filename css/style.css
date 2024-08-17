@@ -48,30 +48,3 @@ footer div div a img {
         height: 60%;
     }
 }
-
-@media screen and (min-width: 1200px) {
-    /* BODY */
-    
-    /* body {
-        height: 100vh;
-    } */
-
-    /* HEADER */
-
-    /* header {
-        height: 10vh;
-    }
- */
-    /* MAIN */
-
-    /* main {
-        height: 80vh;
-    }
- */
-    /* FOOTER */
-
-    /* footer {
-        height: 10vh;
-    }
- */
-}
