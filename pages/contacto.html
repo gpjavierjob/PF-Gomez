@@ -30,26 +30,26 @@
     <main>
         <section>
             <h2>Contacto</h2>
-            <div>
-                <article>
+            <form action="">
+                <div class="form-widget">
                     <label for="nombre">Nombre y Apellido</label>
                     <input type="text" name="nombre" id="nombre">
-                </article>
-                <article>
+                </div>
+                <div class="form-widget">
                     <label for="mascota">Tipo de Mascota</label>
                     <select name="mascota" id="mascota">
                         <option value="perro">Perro</option>
                         <option value="gato">Gato</option>
                     </select>
-                </article>
-                <article>
+                </div>
+                <div class="form-widget">
                     <label for="motivo">Motivo de la consulta</label>
                     <textarea name="motivo" id="motivo" cols="30" rows="10"></textarea>
-                </article>
-                <article>
-                    <button type="submit">Enviar</button>
-                </article>
-            </div>
+                </div>
+                <div class="form-footer">
+                    <button class="form-button" type="submit">Enviar</button>
+                </div>
+            </form>
         </section>
     </main>
     <footer class="container-fluid bg-danger-subtle">
