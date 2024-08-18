@@ -27,6 +27,10 @@
     width: 100%;
 }
 
+.main-banner-2 {
+    display: none;
+}
+
 .article-small-img {
     width: 100px;
     height: 50px;
@@ -233,7 +237,7 @@
         ;
     }
     
-    .footer-fixed {
+    #footer-contact {
         position: fixed;
         bottom: 0;
     }
@@ -241,14 +245,28 @@
 
 @media screen and (min-width: 1200px) {
     .main-banner {
-        height: 720px;
-        width: 100%;
+        height: 360px;
+        width: 50%;
+    }
+
+    .main-banner-2 {
+        display: block;
     }
 }
 
 @media screen and (min-width: 1400px) {
     .main-banner {
-        height: 1080px;
-        width: 100%;
+        height: 540px;
+    }
+}
+
+@media screen and (min-width: 2500px) {
+    .main-banner {
+        height: 540px;
+    }
+
+    #footer-index {
+        position: fixed;
+        bottom: 0;
     }
 }
