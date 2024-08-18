@@ -237,10 +237,11 @@
         ;
     }
     
-    #footer-contact {
+    .fixed-lg {
         position: fixed;
         bottom: 0;
     }
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -252,11 +253,21 @@
     .main-banner-2 {
         display: block;
     }
+
+    .fixed-xl {
+        position: fixed;
+        bottom: 0;
+    }
 }
 
 @media screen and (min-width: 1400px) {
     .main-banner {
         height: 540px;
+    }
+
+    .fixed-xxl {
+        position: fixed;
+        bottom: 0;
     }
 }
 
@@ -266,6 +277,11 @@
     }
 
     #footer-index {
+        position: fixed;
+        bottom: 0;
+    }
+
+    .fixed-xxxl {
         position: fixed;
         bottom: 0;
     }
