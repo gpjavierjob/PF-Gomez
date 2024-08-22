@@ -30,30 +30,32 @@
             </nav>
         </div>
     </header>
-    <main>
-        <section class="main-flex">
-            <h2 class="main-flex-title">Contacto</h2>
-            <form class="main-flex-form" action="">
-                <div class="main-flex-form-widget">
-                    <label for="nombre">Nombre y Apellido</label>
-                    <input type="text" name="nombre" id="nombre">
-                </div>
-                <div class="main-flex-form-widget">
-                    <label for="mascota">Tipo de Mascota</label>
-                    <select name="mascota" id="mascota">
-                        <option value="perro">Perro</option>
-                        <option value="gato">Gato</option>
-                    </select>
-                </div>
-                <div class="main-flex-form-widget">
-                    <label for="motivo">Motivo de la consulta</label>
-                    <textarea name="motivo" id="motivo" cols="30" rows="10"></textarea>
-                </div>
-                <div class="main-flex-form-footer">
-                    <button class="main-flex-form-button" type="submit">Enviar</button>
-                </div>
-            </form>
-        </section>
+    <main class="container-fluid">
+        <div class="row row-cols-1 h-100">
+            <section class="col d-flex flex-column align-items-center p-1">
+                <h2 class="text-center">Contacto</h2>
+                <form class="d-flex flex-column p-1" action="">
+                    <div class="d-flex flex-column pb-2">
+                        <label for="nombre">Nombre y Apellido</label>
+                        <input type="text" name="nombre" id="nombre">
+                    </div>
+                    <div class="d-flex flex-column pb-2">
+                        <label for="mascota">Tipo de Mascota</label>
+                        <select name="mascota" id="mascota">
+                            <option value="perro">Perro</option>
+                            <option value="gato">Gato</option>
+                        </select>
+                    </div>
+                    <div class="d-flex flex-column pb-2">
+                        <label for="motivo">Motivo de la consulta</label>
+                        <textarea name="motivo" id="motivo" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="d-flex flex-row justify-content-end  pb-2">
+                        <button class="main-flex-form-button" type="submit">Enviar</button>
+                    </div>
+                </form>
+            </section>
+        </div>
     </main>
     <footer class="container-fluid bg-danger-subtle fixed-lg">
         <div class="row row-cols-1 row-cols-lg-4 h-100">
