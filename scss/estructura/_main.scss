@@ -1,0 +1,34 @@
+.main-banner {
+    height: 180px;
+    width: 100%;
+    @include media-breakpoint-up(md) {
+        height: 450px;
+    }
+    @include media-breakpoint-up(lg) {
+        height: 540px;
+    }
+    @include media-breakpoint-up(xl) {
+        height: 360px;
+        width: 50%;
+    }
+    @include media-breakpoint-up(xxl) {
+        height: 540px;
+    }
+}
+
+.main-banner-2 {
+    display: none;
+    @include media-breakpoint-up(xl) {
+        display: block;
+    }
+}
+
+.article-small-img {
+    width: 100px;
+    height: 50px;
+}
+
+.article-large-img {
+    // width: 200px;
+    height: 180px;
+}
