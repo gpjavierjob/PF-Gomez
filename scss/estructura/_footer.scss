@@ -3,7 +3,7 @@ $breakpoints: lg, xl, xxl;
 @each $breakpoint in $breakpoints {
     .fixed-footer-#{$breakpoint} {
         @include media-breakpoint-up($breakpoint){
-            position: sticky;
+            position: fixed;
             bottom: 0;
         }
     }
@@ -11,7 +11,7 @@ $breakpoints: lg, xl, xxl;
 
 @media (min-width:2500px){
     .fixed-footer-xxxl {
-        position: sticky;
+        position: fixed;
         bottom: 0;
     }
 }

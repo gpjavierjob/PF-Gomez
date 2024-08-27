@@ -89,22 +89,22 @@ header div nav ul {
 
 @media (min-width: 992px) {
   .fixed-footer-lg {
-    position: sticky;
+    position: fixed;
     bottom: 0; } }
 
 @media (min-width: 1200px) {
   .fixed-footer-xl {
-    position: sticky;
+    position: fixed;
     bottom: 0; } }
 
 @media (min-width: 1400px) {
   .fixed-footer-xxl {
-    position: sticky;
+    position: fixed;
     bottom: 0; } }
 
 @media (min-width: 2500px) {
   .fixed-footer-xxxl {
-    position: sticky;
+    position: fixed;
     bottom: 0; } }
 footer div div a img {
   width: 40px;
