@@ -1,4 +1,32 @@
 @import "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap";
+.breadcrumb {
+  --bs-breadcrumb-padding-x: 0;
+  --bs-breadcrumb-padding-y: 0;
+  --bs-breadcrumb-margin-bottom: 1rem;
+  --bs-breadcrumb-bg: ;
+  --bs-breadcrumb-border-radius: ;
+  --bs-breadcrumb-divider-color: #6c757d;
+  --bs-breadcrumb-item-padding-x: 0.5rem;
+  --bs-breadcrumb-item-active-color: #6c757d;
+  display: flex;
+  flex-wrap: wrap;
+  padding: var(--bs-breadcrumb-padding-y) var(--bs-breadcrumb-padding-x);
+  margin-bottom: var(--bs-breadcrumb-margin-bottom);
+  font-size: var(--bs-breadcrumb-font-size);
+  list-style: none;
+  background-color: var(--bs-breadcrumb-bg);
+  border-radius: var(--bs-breadcrumb-border-radius); }
+
+.breadcrumb-item + .breadcrumb-item {
+  padding-left: var(--bs-breadcrumb-item-padding-x); }
+  .breadcrumb-item + .breadcrumb-item::before {
+    float: left;
+    padding-right: var(--bs-breadcrumb-item-padding-x);
+    color: var(--bs-breadcrumb-divider-color);
+    content: var(--bs-breadcrumb-divider, ">") /* rtl: var(--bs-breadcrumb-divider, ">") */; }
+.breadcrumb-item.active {
+  color: var(--bs-breadcrumb-item-active-color); }
+
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -13,6 +41,15 @@ header div div img {
   height: 60px; }
 header div nav ul {
   list-style-type: none; }
+  header div nav ul li {
+    transition: all 0.3s ease; }
+    header div nav ul li:hover {
+      transform: scale(1.1); }
+
+.breadcrumb-item {
+  transition: all 0.3s ease; }
+  .breadcrumb-item:hover {
+    transform: scale(1.1); }
 
 .main-banner {
   height: 180px;
@@ -44,27 +81,36 @@ header div nav ul {
 .article-large-img {
   height: 180px; }
 
+.submit-button {
+  width: 100px;
+  transition: all 0.3s ease; }
+  .submit-button:hover {
+    transform: scale(1.1); }
+
 @media (min-width: 992px) {
   .fixed-footer-lg {
-    position: fixed;
+    position: sticky;
     bottom: 0; } }
 
 @media (min-width: 1200px) {
   .fixed-footer-xl {
-    position: fixed;
+    position: sticky;
     bottom: 0; } }
 
 @media (min-width: 1400px) {
   .fixed-footer-xxl {
-    position: fixed;
+    position: sticky;
     bottom: 0; } }
 
 @media (min-width: 2500px) {
   .fixed-footer-xxxl {
-    position: fixed;
+    position: sticky;
     bottom: 0; } }
 footer div div a img {
   width: 40px;
-  height: 40px; }
+  height: 40px;
+  transition: all 0.3s ease; }
+  footer div div a img:hover {
+    transform: scale(1.1); }
 
 /*# sourceMappingURL=styles.css.map */

@@ -3,7 +3,7 @@ $breakpoints: lg, xl, xxl;
 @each $breakpoint in $breakpoints {
     .fixed-footer-#{$breakpoint} {
         @include media-breakpoint-up($breakpoint){
-            position: fixed;
+            position: sticky;
             bottom: 0;
         }
     }
@@ -11,24 +11,22 @@ $breakpoints: lg, xl, xxl;
 
 @media (min-width:2500px){
     .fixed-footer-xxxl {
-        position: fixed;
+        position: sticky;
         bottom: 0;
     }
 }
 
 footer {
     div {
-        // div {
-        // }
-        // div {
-        // }
-        // div {
-        // }
         div {
             a {
                 img {
                     width: 40px;
                     height: 40px;                    
+                    transition: all 0.3s ease;
+                    &:hover {
+                        transform: scale(1.1);
+                    }
                 }
             }
         }
