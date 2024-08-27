@@ -1,10 +1,6 @@
-@import "../node_modules/bootstrap/scss/functions";
-
 $breadcrumb-divider: quote(">");
 
-@import "../node_modules/bootstrap/scss/variables";
-@import "../node_modules/bootstrap/scss/mixins";
-@import "../node_modules/bootstrap/scss/breadcrumb";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 @import "base/typo";
 @import "base/reset";
