@@ -1,3 +1,10 @@
+.breadcrumb-item {
+    transition: all 0.3s ease;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
 .main-banner {
     height: 180px;
     width: 100%;
@@ -30,4 +37,12 @@
 
 .article-large-img {
     height: 180px;
+}
+
+.submit-button {
+    width: 100px;
+    transition: all 0.3s ease;
+    &:hover {
+        transform: scale(1.1);
+    }
 }
