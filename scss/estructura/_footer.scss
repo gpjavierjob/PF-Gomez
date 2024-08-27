@@ -1,5 +1,18 @@
 $breakpoints: lg, xl, xxl;
 
+footer {
+    div {
+        div {
+            a {
+                img {
+                    width: 40px;
+                    height: 40px;                    
+                }
+            }
+        }
+    }
+}
+
 @each $breakpoint in $breakpoints {
     .fixed-footer-#{$breakpoint} {
         @include media-breakpoint-up($breakpoint){
@@ -13,24 +26,5 @@ $breakpoints: lg, xl, xxl;
     .fixed-footer-xxxl {
         position: fixed;
         bottom: 0;
-    }
-}
-
-footer {
-    div {
-        // div {
-        // }
-        // div {
-        // }
-        // div {
-        // }
-        div {
-            a {
-                img {
-                    width: 40px;
-                    height: 40px;                    
-                }
-            }
-        }
     }
 }
