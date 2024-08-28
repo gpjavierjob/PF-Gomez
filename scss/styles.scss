@@ -1,7 +1,7 @@
-$breadcrumb-divider: quote(">");
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
+@import "base/variables";
 @import "base/typo";
 @import "base/reset";
 @import "base/default_font";

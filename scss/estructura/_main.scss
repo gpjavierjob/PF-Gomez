@@ -1,4 +1,10 @@
+main {
+    background-color: $Teal-Dark-5-hex;
+    color: $Teal-Dark-1-hex;
+}
+
 .breadcrumb-item {
+    font-style: italic;
     transition: all 0.3s ease;
     &:hover {
         transform: scale(1.1);

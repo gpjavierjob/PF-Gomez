@@ -1,9 +1,15 @@
 header {
+    background-color: $Teal-Dark-1-hex;
     div {
         div{
             img {
                 width: 60px;
                 height: 60px;
+            }
+        }
+        div {
+            h1 {
+                color: $Teal-Dark-3-hex;
             }
         }
         nav {
