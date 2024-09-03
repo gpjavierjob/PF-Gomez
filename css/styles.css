@@ -1,4 +1,6 @@
 @charset "UTF-8";
+/* Color Theme Swatches in Hex */
+/* Separador del breadcrumb */
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -4484,7 +4486,7 @@ textarea.form-control-lg {
   float: left;
   padding-right: var(--bs-breadcrumb-item-padding-x);
   color: var(--bs-breadcrumb-divider-color);
-  content: var(--bs-breadcrumb-divider, "/") /* rtl: var(--bs-breadcrumb-divider, "/") */;
+  content: var(--bs-breadcrumb-divider, ">") /* rtl: var(--bs-breadcrumb-divider, ">") */;
 }
 .breadcrumb-item.active {
   color: var(--bs-breadcrumb-item-active-color);
@@ -10766,13 +10768,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-/* Color Theme Swatches in Hex */
-/* Color Theme Swatches in RGBA */
-/* Color Theme Swatches in HSLA */
-/* Color Theme Swatches in Hex */
-/* Color Theme Swatches in RGBA */
-/* Color Theme Swatches in HSLA */
-/* Separador del breadcrumb */
 * {
   margin: 0;
   padding: 0;
@@ -10913,4 +10908,4 @@ footer div div a img {
 }
 footer div div a img:hover {
   transform: scale(1.1);
-}
+}/*# sourceMappingURL=styles.css.map */
