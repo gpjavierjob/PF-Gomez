@@ -10790,9 +10790,6 @@ header div div img {
 header div div h1, header div div .h1 {
   color: #D8B08C;
 }
-header div nav ul {
-  list-style-type: none;
-}
 header div nav ul li {
   transition: all 0.3s ease;
 }
