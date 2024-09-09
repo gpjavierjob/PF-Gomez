@@ -3,7 +3,7 @@ main {
     color: $Teal-Dark-1-hex;
 }
 
-.breadcrumb-item {
+.breadcrumb-item:not(:last-child) {
     font-style: italic;
     transition: all 0.3s ease;
     &:hover {
@@ -43,6 +43,17 @@ main {
 
 .article-large-img {
     height: 180px;
+}
+
+article {
+    div{
+        span {
+            transition: all 0.3s ease;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
 }
 
 .submit-button {

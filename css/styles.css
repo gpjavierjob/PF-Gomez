@@ -10802,11 +10802,11 @@ main {
   color: #2C3532;
 }
 
-.breadcrumb-item {
+.breadcrumb-item:not(:last-child) {
   font-style: italic;
   transition: all 0.3s ease;
 }
-.breadcrumb-item:hover {
+.breadcrumb-item:not(:last-child):hover {
   transform: scale(1.1);
 }
 
@@ -10854,6 +10854,13 @@ main {
   height: 180px;
 }
 
+article div span {
+  transition: all 0.3s ease;
+}
+article div span:hover {
+  transform: scale(1.1);
+}
+
 .submit-button {
   width: 100px;
   transition: all 0.3s ease;
@@ -10869,6 +10876,16 @@ footer {
 footer div div a img {
   width: 40px;
   height: 40px;
+  transition: all 0.3s ease;
+}
+footer div div a img:hover {
+  transform: scale(1.1);
+}
+footer div div span {
+  transition: all 0.3s ease;
+}
+footer div div span:hover {
+  transform: scale(1.1);
 }
 
 @media (min-width: 992px) {
@@ -10897,12 +10914,4 @@ footer div div a img {
     position: fixed;
     bottom: 0;
   }
-}
-footer div div a img {
-  width: 40px;
-  height: 40px;
-  transition: all 0.3s ease;
-}
-footer div div a img:hover {
-  transform: scale(1.1);
 }/*# sourceMappingURL=styles.css.map */
