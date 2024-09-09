@@ -1,6 +1,6 @@
-# Sitio Web de la Clínica Veterinaria JGP VetClinic
+# Sitio Web de la Clínica Veterinaria *JGP VetClinic*
 
-Este repositorio contiene el código fuente del sitio web oficial de JGP VetClinic. El objetivo de este proyecto es proporcionar a los usuarios una plataforma intuitiva donde puedan obtener información sobre los servicios y productos que ofrecemos, así como facilitar la comunicación con nuestra clínica.
+Este repositorio contiene el código fuente del sitio web oficial de *JGP VetClinic*. El objetivo de este proyecto es proporcionar a los usuarios una plataforma intuitiva donde puedan obtener información sobre los servicios y productos que ofrecemos, así como facilitar la comunicación con nuestra clínica.
 
 ## Características
 
